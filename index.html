@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="/style/main.css">
+</head>
+<body>
+    <main>
+        <section class="card">
+                <!-- welcomes the user to the quiz -->
+                <section class="welcome welcome-fade">
+                    <div class="container">
+
+                        <div class="welcome__title">
+                            <h2>Which color are you?</h2>
+                            <p>Find out which color suits you the best after taking this quiz.</p>
+                        </div>
+    
+                        <div class="welcome__color-images">
+                            <img class="color-explosion" src="/img/color-explosion.png" alt="">
+                        </div>
+    
+                        <form action="" class="welcome__user">
+    
+                            <div class="welcome__name">
+                                <h3 class="name">Your Name</h3>
+                                <input type="text" class="name-input">
+                            </div>
+    
+                            <div class="welcome__email">
+                                <h3 class="email">Your Email</h3>
+                                <input type="email" class="email-input">
+                            </div>
+    
+                        </form>
+    
+                        <div class="welcome__btns">
+                            <button class="take-quiz-btn">Take Quiz</button>
+                        </div>
+
+                    </div>
+                </section>
+
+                <!-- question 1 -->
+                <section class="first-question">
+                    <div class="container">
+                        <div class="first-question__question">
+                            <h2>How would your friends describe you?</h2>
+                        </div>
+
+                        <div class="first-question__image">
+                            <img src="/img/color-explosion.png" alt="" class="image">
+                        </div>
+    
+                        <form action="" class="first-question__answers">
+
+                            <div class="option-one">
+                                <input class="yellow yellow1" type="radio" name="option">
+                                <p>Warm, bubbly, super outgoing and approachable.</p>
+                            </div>
+
+                            <div class="option-two">
+                                <input class="red red1" type="radio" name="option">
+                                <p>Enticing, hot-tempered, very passionate.</p>
+                            </div>
+
+                            <div class="option-three">
+                                <input class="blue blue1" type="radio" name="option">
+                                <p>Aloof, intelligent, misunderstood.</p>
+                            </div>
+
+                            <div class="option-four">
+                                <input class="green green1" type="radio" name="option">
+                                <p>Nurturing, animal lover, a bit of a hippie, very outdoorsy.</p>
+                            </div>
+
+                            <div class="option-five">
+                                <input class="purple purple1" type="radio" name="option">
+                                <p>Elegant, charming, always the center of attention, but very hard to figure out.</p>
+                            </div>
+
+                            <div class="option-six">
+                                <input class="black black1" type="radio" name="option">
+                                <p>What friends?</p>
+                            </div>
+                            
+                        </form>
+    
+                        <div class="first-question__btns">
+                            <button class="next-btn1">Next Question</button>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- question 2 -->
+                <section class="second-question">
+                    <div class="container">
+                        <div class="second-question__question">
+                            <h2>What kind of music do you like?</h2>
+                        </div>
+
+                        <div class="second-question__image">
+                            <img src="/img/color-explosion.png" alt="" class="image">
+                        </div>
+    
+                        <form action="" class="second-question__answers">
+
+                            <div class="option-one">
+                                <input class="yellow yellow2" type="radio" name="option">
+                                <p>Bubblegum pop, top 40s, basically anything that is mainstream and popular.</p>
+                            </div>
+
+                            <div class="option-two">
+                                <input class="red red2" type="radio" name="option">
+                                <p>New age, latin, rhythm and blues, jazz.</p>
+                            </div>
+
+                            <div class="option-three">
+                                <input class="blue blue2" type="radio" name="option">
+                                <p>Indie rock, math rock, super obscure genres you haven't heard of, new wave.</p>
+                            </div>
+
+                            <div class="option-four">
+                                <input class="green green2" type="radio" name="option">
+                                <p>Folk, psychedelic rock, acid rock, country.</p>
+                            </div>
+
+                            <div class="option-five">
+                                <input class="purple purple2" type="radio" name="option">
+                                <p>Classical only please.</p>
+                            </div>
+
+                            <div class="option-six">
+                                <input class="black black2" type="radio" name="option">
+                                <p>Is Rammstein a genre?</p>
+                            </div>
+                            
+                        </form>
+    
+                        <div class="second-question__btns">
+                            <button class="next-btn2">Next Question</button>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- question 2 -->
+                <section class="third-question">
+                    <div class="container">
+                        <div class="third-question__question">
+                            <h2>What does your ideal night consist of?</h2>
+                        </div>
+
+                        <div class="third-question__image">
+                            <img src="/img/color-explosion.png" alt="" class="image">
+                        </div>
+    
+                        <form action="" class="third-question__answers">
+
+                            <div class="option-one">
+                                <input class="yellow yellow3" type="radio" name="option">
+                                <p>I prefer the day, but... spending time with friends, going out on the town, meeting new people.</p>
+                            </div>
+
+                            <div class="option-two">
+                                <input class="red red3" type="radio" name="option">
+                                <p>Going out dancing or clubbing, hooking up with whoever I please, causing drama.</p>
+                            </div>
+
+                            <div class="option-three">
+                                <input class="blue blue3" type="radio" name="option">
+                                <p>Staying at home to read or watch a very obscure foreign film you probably haven't heard of.</p>
+                            </div>
+
+                            <div class="option-four">
+                                <input class="green green3" type="radio" name="option">
+                                <p>Getting on my roof to look at the stars and listen to nature while I knit a 100% cruelty free sweater for my goat.</p>
+                            </div>
+
+                            <div class="option-five">
+                                <input class="purple purple3" type="radio" name="option">
+                                <p>Dining with only the finest people, attending upscale parties, or having my driver take me out on the town.</p>
+                            </div>
+
+                            <div class="option-six">
+                                <input class="black black3" type="radio" name="option">
+                                <p>Brooding.</p>
+                            </div>
+                            
+                        </form>
+    
+                        <div class="third-question__btns">
+                            <button class="next-btn3">See Your Results</button>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- result 1 -->
+                <section class="yellow-result">
+                    <div class="container">
+                        <div class="yellow-result__title">
+                            <h2>You got <span class="yellow-highlight">Yellow!</span></h2>
+                            <div class="yellow-result__color">
+                                <div class="yellow-result__yellow"></div>
+                            </div>
+                            <p>
+                                You have a happy disposition and are cheerful and fun to be with.
+                                
+
+                                You are creative, often being the one who comes up with new ideas - an ideas person who needs others to bring the ideas into reality - you tend to have your head in the clouds much of the time.
+                                
+                                With a personality color yellow, you can be very critical of yourself as well as others - you are a perfectionist.
+                                
+                                You analyze everything, all the time, and are methodical in your thinking.
+                                
+                                With a yellow personality you are impulsive and make quick decisions, but often, out of anxiety, jump in too quickly and rush things rather than taking things at a steady pace.
+                                
+                                You have a strong independent streak in you, and are selective with your choice of friends, keeping a small group of close and like-minded friends rather than being involved in team events or large social gatherings.
+                            </p>
+                        </div>
+    
+                        <div class="yellow-result__btns">
+                            <button class="retake-btn">Retake The Quiz</button>
+                        </div>
+                    </div>
+                </section>
+
+                 <!-- result 2 -->
+                 <section class="red-result">
+                    <div class="container">
+                        <div class="red-result__title">
+                            <h2>You got <span class="red-highlight">Red!</span></h2>
+                            <div class="red-result__color">
+                                <div class="red-result__red"></div>
+                            </div>
+                            <p>
+                                Having red as your favorite color identifies you as extroverted and optimistic, courageous and confident.
+
+                                You are action oriented and physically active - sex is a necessity to you - you have strong survival instincts.
+
+                                With a favorite color red, you like to be the center of attention - in fact all reds crave attention - other people are drawn to the vitality and sense of excitement you emit.
+
+                                As a personality color red, you are stimulating to be with and you radiate a great deal of energy.
+
+                                You are ambitious and competitive and like to be the winner - you are achievement orientated and second place is not good enough for you. With you it is all or nothing.
+                            </p>
+                        </div>
+    
+                        <div class="red-result__btns">
+                            <button class="retake-btn">Retake The Quiz</button>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- result 3 -->
+                <section class="blue-result">
+                    <div class="container">
+                        <div class="blue-result__title">
+                            <h2>You got <span class="blue-highlight">Blue!</span></h2>
+                            <div class="blue-result__color">
+                                <div class="blue-result__blue"></div>
+                            </div>
+                            <p>
+                                You are conservative, reliable and trustworthy - you are quite trusting of others although you are very wary in the beginning until you are sure of the other person. At the same time, you also have a deep need to be trusted.
+
+                                You are not impulsive or spontaneous - you always think before you speak and act and do everything at your own pace in your own time. You take time to process and share your feelings.
+
+                                You are genuine and sincere, and you take your responsibilities seriously.
+
+                                Having a personality color blue means you have a deep need for peace and harmony in your everyday life - you don't like having your feathers ruffled. You would benefit from daily meditation and quiet time for reflection, introspection and self-discovery.
+                            </p>
+                        </div>
+    
+                        <div class="blue-result__btns">
+                            <button class="retake-btn">Retake The Quiz</button>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- result 4 -->
+                <section class="green-result">
+                    <div class="container">
+                        <div class="green-result__title">
+                            <h2>You got <span class="green-highlight">Green!</span></h2>
+                            <div class="green-result__color">
+                                <div class="green-result__green"></div>
+                            </div>
+                            <p>
+                                You are a practical, down-to-earth person with a love of nature.
+
+                                You are stable and well balanced or are striving for balance - in seeking this balance, you can at times become unsettled and anxious.
+
+                                Having a personality color green means you are kind, generous and compassionate - good to have around during a crisis as you remain calm and take control of the situation until it is resolved.
+
+                                You are caring and nurturing to others - however you must be careful not to neglect your own needs while giving to others.
+
+                                You are intelligent and love to learn - you are quick to understand new concepts.
+
+                                With a personality color green you have a great need to love and to be loved and you tend to wear your heart on your sleeve- you are an open book who doesn't hide his/her feelings.
+                            </p>
+                        </div>
+    
+                        <div class="green-result__btns">
+                            <button class="retake-btn">Retake The Quiz</button>
+                        </div>
+                    </div>
+                </section>
+
+                 <!-- result 5 -->
+                 <section class="purple-result">
+                    <div class="container">
+                        <div class="purple-result__title">
+                            <h2>You got <span class="purple-highlight">Purple!</span></h2>
+                            <div class="purple-result__color">
+                                <div class="purple-result__purple"></div>
+                            </div>
+                            <p>
+                                You are sensitive and compassionate, understanding and supportive, thinking of others before yourself - you are the person others come to for help - being needed motivates you but sometimes people take advantage of you.
+
+                                You are a gentle and free spirit. Your feelings run deep and you can be quite sensitive to hurtful comments from others, although you would never show it.
+
+                                Being a personality color purple, you have a peaceful and tranquil quality and a quiet dignity about you.
+
+                                People are drawn to your charismatic and alluring energy.
+
+                                You are usually introverted rather than extroverted and may give the impression of being shy although this is not the case.
+                            </p>
+                        </div>
+    
+                        <div class="purple-result__btns">
+                            <button class="retake-btn">Retake The Quiz</button>
+                        </div>
+                    </div>
+                </section>
+
+                 <!-- result 6 -->
+                 <section class="black-result">
+                    <div class="container">
+                        <div class="black-result__title">
+                            <h2>You got <span class="black-highlight">Black!</span></h2>
+                            <div class="black-result__color">
+                                <div class="black-result__black"></div>
+                            </div>
+                            <p>
+                                You are non-emotional and give the appearance of a dignified and sophisticated person who is in total control - this is often a front as you may feel quite insecure in the company of sophisticated and cultured VIP's and upper class people.
+
+                                You like to keep people at a distance, guarding your emotions and creating an impenetrable barrier between yourself and others.
+
+                                With a personality color black, you may be looking for protection from any negativity that surrounds you.
+
+                                You may wish to create an aura of mystery and intrigue, as in the sexy black negligee.
+
+                                You may be going through a stage of self-denial, not allowing pleasure and joy into your life.
+
+                                You hold things inside and are not good at sharing yourself with others, possibly out of fear.
+
+                                You are methodical in your work, making sure everything is completed as required, down to the last detail.
+                            </p>
+                        </div>
+    
+                        <div class="black-result__btns">
+                            <button class="retake-btn">Retake The Quiz</button>
+                        </div>
+                    </div>
+                </section>
+
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
